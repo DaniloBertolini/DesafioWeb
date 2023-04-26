@@ -1,3 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Bai Jamjuree;
+    color: hsl(210, 10%, 33%);
+}
+
+.cabecalho-container {
+    background-image: url(images/bg-header-desktop.png);
+    display: flex;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
+
+.centralizar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.h1-header {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.p-header {
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 96%;
+    text-align: center;
+}
+
+.button-mac, .button-ios {
+    padding: 17px;
+    color: white;
+    border-radius: 40px;
+    width: 250px;
+    font-size: 18px;
+}
+
+.button-mac {
+    background-color: hsl(233, 100%, 69%);
+    margin-left: 20px;
+}
+
+.button-ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.texto1-main1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.main1-container {
+    display: flex;
+    justify-content: center;
+}
+
+.h2-main1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.p1-main1 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+.computer {
+    width: 622px;
+    margin-right: 100px;
+}
+
+.main2-container {
+    display: flex;
+}
+
+.titulo-p-main2 {
+    font-size: 23px;
+    margin-top: 50px;
+}
+
+.p-main2 {
+    width: 65%;
+}
+
+.espaco {
+    margin-top: 100px;
 }
